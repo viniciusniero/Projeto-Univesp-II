@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="./css/main.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Abrigo de Animais Pedreira-SP</title>
+    <!--PHP-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.11.5/css/dataTables.bootstrap5.min.css">
+    <!--PHP-->
+
+</head>
+
+
+<body>
+    <header class="logo-0">
+    
+            <div class="logo-1">
+
+               <p><img src="./img/logo.png" alt="foto" class="responsive"></p>
+               
+            </div>
+        
+    </header>
+
+   
+
+        <nav class="nave">
+
+            <ul>
+           
+               <li> <a href="index.html"><b>Início</b></a></li>
+               <li> <a href="#tsobre"> <b>Sobre o abrigo </b></a></li>
+                <!--<li><a href="index3.html"><b>Doação</b></a></li>-->
+                <li> <a href="#tcolabore"> <b>Colabore conosco </b></a></li>
+                <!--<li><a href="index5.html"><b>Leis Sobre Adoção</b></a></li>-->
+                <li>
+                  <a href="button" class="container" data-bs-toggle="modal" data-bs-target="#cadUsuarioModal"><b>Quero adotar</b></a>
+                </li>
+
+            </ul>
+           
+        </nav>
+    
+             <!-- cadastro-->    
+    
+            <span id="msgAlerta"></span>
+    
+            
+            </table>
+           <span id="msgAlerta"></span>
+           
+          </div>
+
+          <div class="modal fade" id="cadUsuarioModal" tabindex="-1" aria-labelledby="cadUsuarioModalLabel" aria-hidden="true">
+           <div class="modal-dialog">
+             <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="cadUsuarioModalLabel">Cadastrar interesse em adoção</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+
+
+
+
+
+                    <div class="modal-body">
+                        <span id="msgAlertErroCad"></span>
+                        <form method="POST" id="form-cad-usuario">
+                            <div class="row mb-3">
+                                <label for="nome" class="col-sm-2 col-form-label">Nome</label>
+                                <div class="col-sm-10">
+                                    <input type="text" name="nome" class="form-control" id="nome" placeholder="Seu nome completo">
+                                </div>
+                            </div>
+    
+                            <div class="row mb-3">
+                                <label for="telefone" class="col-sm-2 col-form-label">Telefone</label>
+                                <div class="col-sm-10">
+                                    <input type="text" name="telefone" class="form-control" id="telefone" placeholder="Telefone">
+                                </div>
+                            </div>
+    
+                            <div class="row mb-3">
+                                <label for="pet" class="col-sm-2 col-form-label">Pet</label>
+                                <div class="col-sm-10">
+                                    <input type="text" name="pet" class="form-control" id="pet" placeholder="Nome do Aumigo">
+                                </div>
+                            </div>
+    
+                            <button type="submit" class="btn btn-outline-success btn-sm" value="Cadastrar">Cadastrar</button>
+                        </form>
+                    </div>
+                </div>
+              </div>
+             </div>
+             <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+            <script src="https://cdn.datatables.net/1.11.5/js/jquery.dataTables.min.js"></script>
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+            <script src="https://cdn.datatables.net/1.11.5/js/dataTables.bootstrap5.min.js"></script>
+
+            <script src="js/custom.js"></script>
+
+             
+
+    <!-- cadastro-->
+   
+
+    <div class="ola">
+        <p><b>Olá, nós somos do Abrigo Municipal de Pedreira/SP. Este site foi criado com o intuito de mostrar nossos
+                serviços em prol aos animais, levando informação aos moradores da cidade e em busca de novos lares para nossos
+            Aumigos.</b></p>
+    </div>
+
+    <section class="section-1">
+        <main>
+            <!--CARROSSEL -->
+            <div class="carrossel">
+                <ul>
+                    <li>
+                        <img src="./img/1.png" alt="foto">
+                    </li>
+                    <!-- -->
+                    <li>
+                        <img src="./img/2.png" alt="foto">
+                    </li>
+                    <!-- -->
+                    <li>
+                        <img src="./img/3.png" alt="foto">
+                    </li>
+                    <!-- -->
+                    <li>
+                        <img src="./img/4.png" alt="foto">
+                    </li>
+                    <!-- -->
+                    <li>
+                        <img src="./img/5.png" alt="foto">
+                    </li>
+
+                </ul>
+            </div>
+            <!--CARROSSEL -->
+
+            </div>
+            </div>
+        </main>
+    </section>
+
+    <div class="box-container">
+        <div class="box-content"></div>
+    </div>
+
+    <div class="sobre">
+
+        <p></p>
+
+        <a id="tsobre"><b>Sobre o abrigo</b></a>
+            <p>
+            O Abrigo de Animais de Pedreira, que é mantido pela administração municipal, está localizado na Estrada Hamilton Bernardes, próximo ao Conjunto Habitacional Vida Nova, e é aberto à visitação de segunda a sexta-feira, das 7h às 16h e aos sábados e domingos das 7h às 11h.</p>
+        <p>Atualmente, os animais abrigados no local foram encontrados em risco, doentes ou sofreram maus tratos, e recebem atendimento veterinário, tratamento, castração e alimentação.</p>
+        <p>A equipe é formada por um médico veterinário, um estagiário em veterinária e outros quatro funcionários, que trabalham para  manter o abrigo sempre limpo e organizado.</p>
+<!--        <p>Outras informações <a href="https://oregional.net/abrigo-municipal-de-animais-presta-importante-atendimento-em-pedreira-103051" target="aqui"> </a> </p> -->
+    </div>
+
+<p></p>
+
+<div class="colabore">
+
+        <p></p>
+
+        <a id="tcolabore"><b>Colabore conosco</b></a>
+            <p>
+            Caso queira colaborar com o abrigo com rações, medicamentos, roupinhas ou outros itens, essas doações podem ser entregues no endereço do abrigo.
+            </p>
+            <p>
+            Para doações de outros tipos, como doações financeiras, entre em contato pelo número (19) 99811-3233.
+            </p>
+    </div>
+
+    <!--iframe inicio -->
+        <a href="https://www.facebook.com/abrigopedreirasp/" >
+        <img src="./img/facebook.png" class="icons"/></a>
+
+        <a href="https://www.instagram.com/abrigocaespedreira/">
+        <img src="./img/instagram.png" class="icons"/></a>
+
+        <a href="https://www.google.com/maps/@-22.7414818,-46.9231743,3a,75y,28.77h,78.96t/data=!3m6!1e1!3m4!1sRgBswMErepVz_crhuFH0Ow!2e0!7i16384!8i8192/">
+        <img src="./img/map.png" class="icons"/></a>
+
+
+    <!--iframe fim -->
+
+  
+
+
+    <div class="copy">
+        <footer>
+            <p>ProjetoPi &copy; 2022</p>
+        </footer>
+    <!--VLIBRAS INICIO-->    
+<div vw class="enabled">
+    <div vw-access-button class="active"></div>
+    <div vw-plugin-wrapper>
+      <div class="vw-plugin-top-wrapper"></div>
+    </div>
+  </div>
+  <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+  <script>
+    new window.VLibras.Widget('https://vlibras.gov.br/app');
+  </script>
+    <!--VLIBRAS INICIO-->    
+
+
+
+
+
+</body>
+
+
+</html>
